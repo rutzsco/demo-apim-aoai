@@ -1,0 +1,52 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2025-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceGroupName": {
+      "value": "rutzsco-aoai-01"
+    },
+    "openAiServiceName": {
+      "value": "rutzsco-aoai-01"
+    },
+    "keyVaultName": {
+      "value": "rutzsco-aoai-01"
+    },
+    "identityName": {
+      "value": "rutzsco-aoai-01"
+    },
+    "apimServiceName": {
+      "value": "rutzsco-aoai-01-apim"
+    },
+    "logAnalyticsName": {
+      "value": "rutzsco-aoai-01-la"
+    },
+    "applicationInsightsDashboardName": {
+      "value": "rutzsco-aoai-01-dashboard"
+    },
+    "applicationInsightsName": {
+      "value": "rutzsco-aoai-01-ai"
+    },
+    "vnetName": {
+      "value": "rutzsco-aoai-01-vnet"
+    },
+    "apimSubnetName": {
+      "value": "apimSubnet"
+    },
+    "apimNsgName": {
+      "value": "apimNsg"
+    },
+    "privateEndpointSubnetName": {
+      "value": "peSubnet"
+    },
+    "privateEndpointNsgName": {
+      "value": "peNsg"
+    },
+    "environmentName": {
+      "value": "rutzsco-aoai-01"
+    },
+    "location": 
+    {
+      "value": "eastus"
+    }
+  }
+}
