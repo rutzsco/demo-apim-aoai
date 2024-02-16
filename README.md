@@ -44,3 +44,16 @@
 ### Private Endpoint
 
 [Azure Private Endpoint](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview) allows you to connect privately to a service powered by Azure Private Link. Private Endpoint uses a private IP address from your VNet, effectively bringing the service into your VNet.
+
+
+## Manual Deployment
+
+- [API Management vNet Integraion]https://learn.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet?tabs=stv2
+
+- [Azure Open AI Private Endpoints](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-openai-private-endpoints-connecting-across-vnet-s/ba-p/3913325)
+
+- [Azure Monitor Private Link Scope](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security#configure-access-to-your-resources)
+
+## Bicep Deployment
+
+- https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-vscode
