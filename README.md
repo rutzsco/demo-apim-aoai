@@ -5,6 +5,8 @@
 
 ![ais-apim-openai](arch.png)
 
+## Key Components
+
 ### Azure API Management
 
 [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) is a fully managed service that enables customers to publish, secure, transform, maintain, and monitor APIs. It is a great way to expose your APIs to the outside world in a secure and manageable way.
