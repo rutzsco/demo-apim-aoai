@@ -1,0 +1,23 @@
+{
+  "type": "Microsoft.ApiManagement/service/backends",
+  "apiVersion": "2023-09-01-preview",
+  "name": "rutzsco-aoai-06-apim/openai-pool",
+  "properties": {
+    "description": "Load balancer for multiple backends",
+    "type": "Pool",
+    "pool": {
+      "services": [
+        {
+          "id": "/subscriptions/51274a9c-b1ad-4d34-8ffe-0ba858eee00f/resourceGroups/<resourceGroupName>/providers/Microsoft.ApiManagement/service/rutzsco-aoai-06-apim/backends/open-ai-baclend",
+          "priority": "1", 
+          "weight": "3" 
+        },
+        {
+          "id": "/subscriptions/51274a9c-b1ad-4d34-8ffe-0ba858eee00f/resourceGroups/<resourceGroupName>/providers/Microsoft.ApiManagement/service/rutzsco-aoai-06-apim/backends/open-ai-baclend",
+          "priority": "1",
+          "weight": "1"    
+        }
+      ]
+    }
+  }
+}
