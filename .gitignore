@@ -398,3 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 infra/main.parameters.json
 infra/main-network.parameters.json
+infra/api-tests.http
+infra/main-backend.parameters.json
